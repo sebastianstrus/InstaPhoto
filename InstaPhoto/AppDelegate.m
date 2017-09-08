@@ -19,20 +19,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    FeedViewController *feedViewController = [[FeedViewController alloc] init];
-    feedViewController.title = @"Feed";
-    feedViewController.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed.png"];//png 30.30
-    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
-    favoritesViewController.title = @"Favorites";
-    favoritesViewController.tabBarItem.image = [UIImage imageNamed:@"two"];
+    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
     
-    //different background:
-    feedViewController.view.backgroundColor =[UIColor blueColor];
-    favoritesViewController.view.backgroundColor = [UIColor redColor];
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    
+    // must move to controller
+    //feedViewController.title = @"Feed";
+    //feedViewController.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed.png"];//png 30.30
+    
+    
+    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
+    //favoritesViewController.title = @"Favorites";
+    //favoritesViewController.tabBarItem.image = [UIImage imageNamed:@"two"];
+    
+    //different background, moved to controllers
+    //feedViewController.view.backgroundColor =[UIColor blueColor];
+    //favoritesViewController.view.backgroundColor = [UIColor redColor];
     
     UITabBarController * tabBarController = [[UITabBarController alloc] init];
     
-    [tabBarController setViewControllers:@[feedViewController, favoritesViewController]];
+    [tabBarController setViewControllers:@[profileViewController, feedViewController, favoritesViewController]];
     
     self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;

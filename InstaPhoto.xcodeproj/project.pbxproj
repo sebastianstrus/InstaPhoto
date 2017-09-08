@@ -15,6 +15,7 @@
 		7D0A8C891F62C8AA009B6AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C871F62C8AA009B6AEE /* LaunchScreen.storyboard */; };
 		7D0A8C921F62D16A009B6AEE /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C911F62D16A009B6AEE /* FeedViewController.m */; };
 		7D0A8C951F62D211009B6AEE /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */; };
+		7D0A8C981F62D879009B6AEE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C971F62D879009B6AEE /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		7D0A8C911F62D16A009B6AEE /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		7D0A8C931F62D211009B6AEE /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
 		7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		7D0A8C961F62D879009B6AEE /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		7D0A8C971F62D879009B6AEE /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +69,12 @@
 			children = (
 				7D0A8C7C1F62C8AA009B6AEE /* AppDelegate.h */,
 				7D0A8C7D1F62C8AA009B6AEE /* AppDelegate.m */,
-				7D0A8C931F62D211009B6AEE /* FavoritesViewController.h */,
-				7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */,
+				7D0A8C961F62D879009B6AEE /* ProfileViewController.h */,
+				7D0A8C971F62D879009B6AEE /* ProfileViewController.m */,
 				7D0A8C901F62D16A009B6AEE /* FeedViewController.h */,
 				7D0A8C911F62D16A009B6AEE /* FeedViewController.m */,
+				7D0A8C931F62D211009B6AEE /* FavoritesViewController.h */,
+				7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */,
 				7D0A8C7F1F62C8AA009B6AEE /* ViewController.h */,
 				7D0A8C801F62C8AA009B6AEE /* ViewController.m */,
 				7D0A8C821F62C8AA009B6AEE /* Main.storyboard */,
@@ -165,6 +170,7 @@
 				7D0A8C811F62C8AA009B6AEE /* ViewController.m in Sources */,
 				7D0A8C7E1F62C8AA009B6AEE /* AppDelegate.m in Sources */,
 				7D0A8C921F62D16A009B6AEE /* FeedViewController.m in Sources */,
+				7D0A8C981F62D879009B6AEE /* ProfileViewController.m in Sources */,
 				7D0A8C7B1F62C8AA009B6AEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

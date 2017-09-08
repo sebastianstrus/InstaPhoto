@@ -14,9 +14,20 @@
 
 @implementation FavoritesViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:@"FavoritesViewController" bundle:nil];
+    if (self) {
+        self.title = @"Favorites";
+        self.tabBarItem.image = [UIImage imageNamed:@"two"];
+    }
+    return self;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor =[UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {
