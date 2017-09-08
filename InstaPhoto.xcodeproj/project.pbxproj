@@ -13,6 +13,8 @@
 		7D0A8C841F62C8AA009B6AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C821F62C8AA009B6AEE /* Main.storyboard */; };
 		7D0A8C861F62C8AA009B6AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C851F62C8AA009B6AEE /* Assets.xcassets */; };
 		7D0A8C891F62C8AA009B6AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C871F62C8AA009B6AEE /* LaunchScreen.storyboard */; };
+		7D0A8C921F62D16A009B6AEE /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C911F62D16A009B6AEE /* FeedViewController.m */; };
+		7D0A8C951F62D211009B6AEE /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7D0A8C851F62C8AA009B6AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0A8C881F62C8AA009B6AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D0A8C8A1F62C8AA009B6AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0A8C901F62D16A009B6AEE /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		7D0A8C911F62D16A009B6AEE /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		7D0A8C931F62D211009B6AEE /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				7D0A8C7C1F62C8AA009B6AEE /* AppDelegate.h */,
 				7D0A8C7D1F62C8AA009B6AEE /* AppDelegate.m */,
+				7D0A8C931F62D211009B6AEE /* FavoritesViewController.h */,
+				7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */,
+				7D0A8C901F62D16A009B6AEE /* FeedViewController.h */,
+				7D0A8C911F62D16A009B6AEE /* FeedViewController.m */,
 				7D0A8C7F1F62C8AA009B6AEE /* ViewController.h */,
 				7D0A8C801F62C8AA009B6AEE /* ViewController.m */,
 				7D0A8C821F62C8AA009B6AEE /* Main.storyboard */,
@@ -151,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0A8C951F62D211009B6AEE /* FavoritesViewController.m in Sources */,
 				7D0A8C811F62C8AA009B6AEE /* ViewController.m in Sources */,
 				7D0A8C7E1F62C8AA009B6AEE /* AppDelegate.m in Sources */,
+				7D0A8C921F62D16A009B6AEE /* FeedViewController.m in Sources */,
 				7D0A8C7B1F62C8AA009B6AEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FeedViewController.h"
+#import "FavoritesViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    feedViewController.title = @"Feed";
+    feedViewController.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed.png"];//png 30.30
+    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
+    favoritesViewController.title = @"Favorites";
+    favoritesViewController.tabBarItem.image = [UIImage imageNamed:@"two"];
+    
+    //different background:
+    feedViewController.view.backgroundColor =[UIColor blueColor];
+    favoritesViewController.view.backgroundColor = [UIColor redColor];
+    
+    UITabBarController * tabBarController = [[UITabBarController alloc] init];
+    
+    [tabBarController setViewControllers:@[feedViewController, favoritesViewController]];
+    
+    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
