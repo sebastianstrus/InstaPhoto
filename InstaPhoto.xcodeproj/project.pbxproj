@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51C6B4C57DC9487586B6C517 /* libPods-InstaPhoto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FE0EB008330BC074C63E33 /* libPods-InstaPhoto.a */; };
 		7D0A8C7B1F62C8AA009B6AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C7A1F62C8AA009B6AEE /* main.m */; };
 		7D0A8C7E1F62C8AA009B6AEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C7D1F62C8AA009B6AEE /* AppDelegate.m */; };
 		7D0A8C811F62C8AA009B6AEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C801F62C8AA009B6AEE /* ViewController.m */; };
 		7D0A8C841F62C8AA009B6AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C821F62C8AA009B6AEE /* Main.storyboard */; };
-		7D0A8C861F62C8AA009B6AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C851F62C8AA009B6AEE /* Assets.xcassets */; };
 		7D0A8C891F62C8AA009B6AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A8C871F62C8AA009B6AEE /* LaunchScreen.storyboard */; };
 		7D0A8C921F62D16A009B6AEE /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C911F62D16A009B6AEE /* FeedViewController.m */; };
 		7D0A8C951F62D211009B6AEE /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */; };
 		7D0A8C981F62D879009B6AEE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A8C971F62D879009B6AEE /* ProfileViewController.m */; };
+		7DBC9ADE1F63554F00AB9723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC9ADD1F63554F00AB9723 /* Assets.xcassets */; };
+		7DBC9AE11F643D4800AB9723 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC9AE01F643D4800AB9723 /* FeedTableViewController.m */; };
+		7DBC9AE41F6465A900AB9723 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC9AE31F6465A800AB9723 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187F3AB13091E466425CA6A2 /* Pods-InstaPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPhoto/Pods-InstaPhoto.release.xcconfig"; sourceTree = "<group>"; };
 		7D0A8C761F62C8AA009B6AEE /* InstaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0A8C7A1F62C8AA009B6AEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D0A8C7C1F62C8AA009B6AEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,7 +30,6 @@
 		7D0A8C7F1F62C8AA009B6AEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D0A8C801F62C8AA009B6AEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7D0A8C831F62C8AA009B6AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D0A8C851F62C8AA009B6AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0A8C881F62C8AA009B6AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D0A8C8A1F62C8AA009B6AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D0A8C901F62D16A009B6AEE /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
@@ -35,6 +38,13 @@
 		7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		7D0A8C961F62D879009B6AEE /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		7D0A8C971F62D879009B6AEE /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		7DBC9ADD1F63554F00AB9723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DBC9ADF1F643D4800AB9723 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		7DBC9AE01F643D4800AB9723 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		7DBC9AE21F6465A800AB9723 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		7DBC9AE31F6465A800AB9723 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		B7FE0EB008330BC074C63E33 /* libPods-InstaPhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaPhoto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAA8D9CB3708A5A4BC180A5 /* Pods-InstaPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPhoto/Pods-InstaPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C6B4C57DC9487586B6C517 /* libPods-InstaPhoto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +64,8 @@
 			children = (
 				7D0A8C781F62C8AA009B6AEE /* InstaPhoto */,
 				7D0A8C771F62C8AA009B6AEE /* Products */,
+				86D02CB3A3EBB642979B16E8 /* Pods */,
+				D262FEAD0268E69B2E6F416F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +82,10 @@
 			children = (
 				7D0A8C7C1F62C8AA009B6AEE /* AppDelegate.h */,
 				7D0A8C7D1F62C8AA009B6AEE /* AppDelegate.m */,
+				7DBC9ADF1F643D4800AB9723 /* FeedTableViewController.h */,
+				7DBC9AE01F643D4800AB9723 /* FeedTableViewController.m */,
+				7DBC9AE21F6465A800AB9723 /* PhotoViewController.h */,
+				7DBC9AE31F6465A800AB9723 /* PhotoViewController.m */,
 				7D0A8C961F62D879009B6AEE /* ProfileViewController.h */,
 				7D0A8C971F62D879009B6AEE /* ProfileViewController.m */,
 				7D0A8C901F62D16A009B6AEE /* FeedViewController.h */,
@@ -77,8 +94,8 @@
 				7D0A8C941F62D211009B6AEE /* FavoritesViewController.m */,
 				7D0A8C7F1F62C8AA009B6AEE /* ViewController.h */,
 				7D0A8C801F62C8AA009B6AEE /* ViewController.m */,
+				7DBC9ADD1F63554F00AB9723 /* Assets.xcassets */,
 				7D0A8C821F62C8AA009B6AEE /* Main.storyboard */,
-				7D0A8C851F62C8AA009B6AEE /* Assets.xcassets */,
 				7D0A8C871F62C8AA009B6AEE /* LaunchScreen.storyboard */,
 				7D0A8C8A1F62C8AA009B6AEE /* Info.plist */,
 				7D0A8C791F62C8AA009B6AEE /* Supporting Files */,
@@ -94,6 +111,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86D02CB3A3EBB642979B16E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDAA8D9CB3708A5A4BC180A5 /* Pods-InstaPhoto.debug.xcconfig */,
+				187F3AB13091E466425CA6A2 /* Pods-InstaPhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D262FEAD0268E69B2E6F416F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE0EB008330BC074C63E33 /* libPods-InstaPhoto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D0A8C8D1F62C8AA009B6AEE /* Build configuration list for PBXNativeTarget "InstaPhoto" */;
 			buildPhases = (
+				83B1358409E52DB11504CABE /* [CP] Check Pods Manifest.lock */,
 				7D0A8C721F62C8AA009B6AEE /* Sources */,
 				7D0A8C731F62C8AA009B6AEE /* Frameworks */,
 				7D0A8C741F62C8AA009B6AEE /* Resources */,
+				C0106DE115090AC8B800DA92 /* [CP] Embed Pods Frameworks */,
+				BB1F73CC309B74BDF23A06B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,12 +191,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0A8C891F62C8AA009B6AEE /* LaunchScreen.storyboard in Resources */,
-				7D0A8C861F62C8AA009B6AEE /* Assets.xcassets in Resources */,
+				7DBC9ADE1F63554F00AB9723 /* Assets.xcassets in Resources */,
 				7D0A8C841F62C8AA009B6AEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83B1358409E52DB11504CABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1F73CC309B74BDF23A06B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPhoto/Pods-InstaPhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0106DE115090AC8B800DA92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPhoto/Pods-InstaPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D0A8C721F62C8AA009B6AEE /* Sources */ = {
@@ -168,7 +256,9 @@
 			files = (
 				7D0A8C951F62D211009B6AEE /* FavoritesViewController.m in Sources */,
 				7D0A8C811F62C8AA009B6AEE /* ViewController.m in Sources */,
+				7DBC9AE41F6465A900AB9723 /* PhotoViewController.m in Sources */,
 				7D0A8C7E1F62C8AA009B6AEE /* AppDelegate.m in Sources */,
+				7DBC9AE11F643D4800AB9723 /* FeedTableViewController.m in Sources */,
 				7D0A8C921F62D16A009B6AEE /* FeedViewController.m in Sources */,
 				7D0A8C981F62D879009B6AEE /* ProfileViewController.m in Sources */,
 				7D0A8C7B1F62C8AA009B6AEE /* main.m in Sources */,
@@ -289,6 +379,7 @@
 		};
 		7D0A8C8E1F62C8AA009B6AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAA8D9CB3708A5A4BC180A5 /* Pods-InstaPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4SL936GBZY;
@@ -301,6 +392,7 @@
 		};
 		7D0A8C8F1F62C8AA009B6AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187F3AB13091E466425CA6A2 /* Pods-InstaPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4SL936GBZY;
@@ -330,6 +422,7 @@
 				7D0A8C8F1F62C8AA009B6AEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

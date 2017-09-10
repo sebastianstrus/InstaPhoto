@@ -15,10 +15,10 @@
 @implementation FeedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:@"FeedViewController" bundle:nil];
+    self = [super initWithNibName:nibNameOrNil bundle:nil];
     if (self) {
         self.title = @"Feed";
-        self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed"];
+        self.tabBarItem.image = [UIImage imageNamed:@"feed"];
     }
     return self;
 }

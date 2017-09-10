@@ -15,14 +15,13 @@
 @implementation FavoritesViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:@"FavoritesViewController" bundle:nil];
+    self = [super initWithNibName:nibNameOrNil bundle:nil];
     if (self) {
         self.title = @"Favorites";
-        self.tabBarItem.image = [UIImage imageNamed:@"two"];
+        //self.tabBarItem.image = [UIImage imageNamed:@"favorites"];
     }
     return self;
 }
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
